@@ -1,2 +1,3 @@
 pub mod genshin;
-pub mod typedef;
+mod python;
+mod typedef;
