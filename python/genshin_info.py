@@ -4,7 +4,7 @@ import sys
 import os
 
 
-def sign_ys(cookie: str) -> dict:
+def ys_info(cookie: str) -> dict:
     sys.stdout = open(os.devnull, 'w')
     result = {}
     gs = genshinhelper.YuanShen(cookie)
@@ -16,4 +16,4 @@ def sign_ys(cookie: str) -> dict:
 cookie = sys.argv[1]
 encoder = json.JSONEncoder()
 encoder.ensure_ascii = False
-print(encoder.encode(sign_ys(cookie)))
+print(encoder.encode(ys_info(cookie)))
