@@ -1,2 +1,2 @@
 # Backend for my own server
-## mainly written in rust
+This backend is mainly written in rust, with several python scripts.
