@@ -1,5 +1,4 @@
 use std::{
-    ffi::OsStr,
     io,
     process::{Command, Output},
 };
